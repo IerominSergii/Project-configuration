@@ -1,0 +1,29 @@
+@import 'central';
+@import 'rules';
+@import 'colors';
+@import 'fonts';
+
+html {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #a8c8c4 linear-gradient(to bottom left, #ccdeeb, #84b39e)
+    no-repeat;
+
+  @include regular-text;
+  color: $main-font-color;
+  min-height: 100%;
+}
+
+a {
+  color: $main-font-color;
+}
+
+.back {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
