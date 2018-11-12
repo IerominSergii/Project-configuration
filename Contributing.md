@@ -1,4 +1,4 @@
-# Adv banner
+# Project configuration
 
 _Don't change or delete this files_ _`.editorconfig`, `.gitattributes`,
 `.gitignore`, `.travis.yml`, `package.json`._
